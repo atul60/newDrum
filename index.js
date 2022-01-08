@@ -52,5 +52,5 @@ function keyAnimation(key){
   document.querySelector("." + key).classList.add("shadow");
   setTimeout(function(){
     document.querySelector("." + key).classList.remove("shadow");
-  }, 200);
+  }, 100);
 }
